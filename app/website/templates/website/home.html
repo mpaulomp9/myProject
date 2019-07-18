@@ -1,0 +1,192 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+{#<body>#}
+{#    home#}
+{#</body>#}
+{#</html>#}
+
+{% extends 'base.html' %}
+
+{% load static %}
+{% block body %}
+    <table class="table border-bottom">
+        <tr>
+            <td>
+                <img src="{% static 'images/p1.gif' %}" alt="some text" width=120 height=100 border="2" align="middle">
+            </td>
+            <td>
+                <img src="{% static 'images/g2.gif' %}" alt="some text" width=120 height=100 border="2" align="middle">
+            </td>
+            <td>
+                <img src="{% static 'images/g4.gif' %}" alt="some text" width=120 height=100 border="2" align="middle">
+            </td>
+
+            <td>
+                <img src="{% static 'images/p4.jpg' %}" alt="some text" width="600" height="100" border="2" align="middle">
+            </td>
+            <td>
+                <img src="{% static 'images/g3.gif' %}" alt="some text" width=120 height=100 border="2" align="middle">
+            </td>
+            <td>
+                <img src="{% static 'images/p1.gif' %}" alt="some text" width=120 height=100 border="2" align="middle">
+            </td>
+        </tr>
+    </table>
+
+
+{#    <table bgcolor="red" border="0">#}
+{#        <tr>#}
+{#            <td width="200"><font><a href="C:\Users\COMPUTADOR\Videos\texto em html\p26.jpg"><font color="white">BANDA</a>#}
+{#            </font></td>#}
+{#            <td width="200"><a href="C:\Users\COMPUTADOR\Videos\texto em html\alo.html"><font color="white">SHOWS</a></td>#}
+{#            <td width="200"><a href="C:\Users\COMPUTADOR\Videos\texto em html\alo.html"><font color="white">MAKING OFF</a>#}
+{#            </td>#}
+{#            <td width="200"><a href="C:\Users\COMPUTADOR\Videos\texto em html\alo.html"><font color="white">BIOGRÁFIA</a>#}
+{#            </td>#}
+{#            <td width="200"><a href="C:\Users\in the sky\Desktop\texto em html\vd.html"><font color="white">MÚSICAS</a></td>#}
+{#            <td width="200"><a href="vd.html"><font color="white">VÍDEOS </a></td>#}
+{#            <td width="200"><a href="C:\Users\COMPUTADOR\Videos\texto em html\alo.html"><font color="white">ALBÚMS</a></td>#}
+{#            <td width="200"><a href=""><font color="white">FOTOS</a></td>#}
+{#        </tr>#}
+{##}
+{#    </table>#}
+
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 text-center">
+                <h1>História</h1>
+            </div>
+            <div class="col-4">
+                Várias histórias dos primórdios do AC/DC foram relembradas em uma longa
+                entrevista
+                com Angus Young ao site australiano Undercover News em outubro de 2008
+                Dentre elas, consta a do surgimento do nome AC/DC, que foi idéia de
+                Sandra Young, esposa de George Young, irmão de Angus e Malcolm.
+                meio que uma combinação", diz Angus. "Nós estávamos pensando em
+                meio que uma combinação", diz Angus. "Nós estávamos pensando em
+                nomes e ela mandou esse. O negócio colou. Nós achamos que era um
+                grande nome, precisávamos rapidamente de um porque fomos a uma
+                agência de shows em Sydney e eles nos disseram que tinham alguns
+                shows marcados, então nós realmente precisávamos de um nome".
+                Dentre elas, consta a do surgimento do nome AC/DC, que foi idéia de Sandra Young, esposa de George
+                Young, irmão de Angus e Malcolm.
+                "Foi meio que uma combinação", diz Angus. "Nós estávamos pensando em nomes e ela mandou esse.
+                O negócio colou. Nós achamos que era um grande
+                nome, precisávamos rapidamente de um porque fomos a uma agência de shows em Sydney e eles nos
+                disseram que tinham alguns shows marcados, então
+                nós realmente precisávamos de um
+            </div>
+
+            <div class="col-6 text-center">
+                 <img src="{% static 'images/p23.jpg' %}" alt="some text" width="600" height="600" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center pb-3">
+                <h2>Componentes</h2>
+                <hr>
+            </div>
+
+            <div class="col-2 text-center">
+               <img src="{% static 'images/p26.jpg' %}" alt="some text" width="120" height="100" border="2" align="middle">
+                <p class="mb-0">guitarrista,aungus yang</p>
+            </div>
+            <div class="col-2 text-center">
+                <img src="{% static 'images/p24.jpg' %}" alt="some text" width="120" height="100" border="2" align="middle">
+                ‎<p class="mb-0">malcolm young,guitarista</p>
+            </div>
+            <div class="col-2 text-center">
+                <img src="{% static 'images/p30.jpg' %}" alt="some text" width="120" height="100" border="2" align="middle">
+                <p class="mb-0">‎Brian Johnson ,vocalista</p>
+            </div>
+            <div class="col-2 text-center">
+                <img src="{% static 'images/p27.jpg' %}" alt="some text" width="120" height="100" border="2" align="middle">
+                <p class="mb-0">phil rudd,baterista</p>
+            </div>
+            <div class="col-2 text-center">
+                <img src="{% static 'images/p31.jpg' %}" alt="some text" width="120" height="100" border="2" align="middle">
+                <p class="mb-0">cliff williams,baixista</p>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 class="text-center pt-4">Vídeos</h2>
+    <table class="table text-center">
+        <tr>
+            <td>
+                <video width="410" height="240" controls>
+                    <source src="{% static 'images/v1.mp4' %}" type="video/mp4">
+                    <source src="v1.ogg" type="video/ogg">
+                    Seu navegador n~~ao suporta tags de vídeo.
+                </video>
+                <p class="text-danger">ac/dc,rock on train</p>
+            </td>
+            <td>
+                <video width="410" height="240" controls>
+                    <source src="{% static 'images/v2.mp4' %}" type="video/mp4">
+                    <source src="v2.ogg" type="video/ogg">
+                    Seu navegador n~~ao suporta tags de vídeo.
+                </video>
+                <p class="text-danger">Back in black</p>
+            </td>
+            <td>
+                <video width="410" height="240" controls>
+                    <source src="{% static 'images/v3.mp4' %}" type="video/mp4">
+                    <source src="v3.ogg" type="video/ogg">
+                    Seu navegador n~~ao suporta tags de vídeo.
+                </video>
+                <p class="text-danger">ac dc whole lotta rosie</p>
+            </td>
+    </table>
+
+    <table class="table text-center">
+        <tr>
+            <td>
+                <video width="410" height="240" controls>
+                    <source src="{% static 'images/v1.mp4' %}" type="video/mp4">
+                    <source src="v1.ogg" type="video/ogg">
+                    Seu navegador n~~ao suporta tags de vídeo.
+                </video>
+                <p class="text-danger">hells</p>
+            </td>
+            <td>
+                <video width="410" height="240" controls>
+                    <source src="{% static 'images/v4.mp4' %}" type="video/mp4">
+                    <source src="v4.ogg" type="video/ogg">
+                    Seu navegador n~~ao suporta tags de vídeo.
+                </video>
+                <p class="text-danger">tunderstruck</p>
+            </td>
+            <td>
+                <video width="410" height="240" controls>
+                    <source src="{% static 'images/v1.mp4' %}" type="video/mp4">
+                    <source src="v1.ogg" type="video/ogg">
+                    Seu navegador n~~ao suporta tags de vídeo.
+                </video>
+                <p class="text-danger">shoot a trill</p>
+            </td>
+    </table>
+
+    <div class="text-center">
+        <a href="vd.html" class="btn btn-outline-danger btn-lg">mais videos</a>
+    </div>
+
+    <div class="text-center pt-4 pb-5">
+        <h2> Músicas</h2>
+        <hr>
+        <audio src="{% static 'images/sh.mp3' %}" preload="auto" controls></audio>
+        <audio src="{% static 'images/th.mp3' %}" preload="auto" controls></audio>
+        <audio src="{% static 'images/fir.mp3' %}"  preload="auto" controls></audio>
+        <audio src="{% static 'images/rp.mp3' %}" preload="auto" controls></audio>
+    </div>
+
+{% endblock %}
